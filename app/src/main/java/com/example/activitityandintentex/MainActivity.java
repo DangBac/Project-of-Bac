@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.model.Product1;
 import com.example.model.Product2;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
                 startActivity(intent);
+                Toast.makeText(MainActivity.this,"Giap", Toast.LENGTH_SHORT).show();
             }
         });
         btnDialog.setOnClickListener(new View.OnClickListener() {
