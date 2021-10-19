@@ -39,9 +39,10 @@ public class MainActivity extends AppCompatActivity {
         btnClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this,"Giap", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Bắc là tui", Toast.LENGTH_SHORT).show();
             }
         });
         btnDialog.setOnClickListener(new View.OnClickListener() {
