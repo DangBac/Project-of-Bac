@@ -31,4 +31,9 @@
         android:text="Click to send datâ"
         android:layout_gravity="center"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Giap"
+        android:textSize="24sp"/>
 </LinearLayout>
