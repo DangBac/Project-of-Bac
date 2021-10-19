@@ -31,4 +31,9 @@
         android:text="Click to send datâ"
         android:layout_gravity="center"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Bắc là tui"/>
 </LinearLayout>
