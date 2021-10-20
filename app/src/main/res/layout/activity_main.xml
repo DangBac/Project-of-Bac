@@ -59,4 +59,9 @@
         android:layout_height="wrap_content"
         android:text="Bắc đẹp trai làn thứ 2"
         android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bắc đẹp trai làn thứ N+1"
+        android:textSize="30sp"/>
 </LinearLayout>
